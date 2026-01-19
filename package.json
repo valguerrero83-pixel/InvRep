@@ -1,14 +1,13 @@
 {
   "name": "invrep-backend",
   "version": "1.0.0",
-  "description": "Backend Inventario Repuestos",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node server.js"
   },
-  "type": "commonjs",
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "^4.21.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "mongodb": "^6.5.0"
